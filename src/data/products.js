@@ -1,7 +1,7 @@
 export const products = [
   {
     name: 'Estribo nervurado',
-    image: '/assets/products/estribo-nervurado.jpg',
+    image: 'assets/products/estribo-nervurado.jpg',
     description:
       'Feito com vergalhão CA-50 Gerdau Nervurado, proporciona mais aderência do aço com o concreto. Disponível nas bitolas 4,2 mm, 5,0 mm e 6,3 mm, em formatos quadrados, retangulares e redondos.',
     usage:
@@ -9,7 +9,7 @@ export const products = [
   },
   {
     name: 'Colunas POP',
-    image: '/assets/products/colunas-pop.jpg',
+    image: 'assets/products/colunas-pop.jpg',
     description:
       'Prontas para uso, feitas com vergalhão CA-50 Gerdau e estribos de aço CA-50 Gerdau unidos por solda ponto, com garantia de qualidade.',
     usage:
@@ -17,14 +17,14 @@ export const products = [
   },
   {
     name: 'Colunas sob medida',
-    image: '/assets/products/colunas-sob-medida.jpg',
+    image: 'assets/products/colunas-sob-medida.jpg',
     description:
       'Produzidas com vergalhão CA-50 e estribos de CA-60, podem ser fabricadas de acordo com as medidas do seu projeto.',
     usage: 'Indicadas para cintas, colunas e vigas em obras de diferentes portes.',
   },
   {
     name: 'Sapatas',
-    image: '/assets/products/sapatas.jpg',
+    image: 'assets/products/sapatas.jpg',
     description:
       'Conjunto de armaduras confeccionadas com vergalhão CA-50, entregue nas dimensões exigidas pelo projeto.',
     usage:
@@ -32,7 +32,7 @@ export const products = [
   },
   {
     name: 'Treliça',
-    image: '/assets/products/trelica.jpg',
+    image: 'assets/products/trelica.jpg',
     description:
       'Fabricada com aço CA-50 Gerdau Nervurado, oferece mais aderência ao concreto e segurança estrutural.',
     usage:
@@ -40,14 +40,14 @@ export const products = [
   },
   {
     name: 'Viga',
-    image: '/assets/products/vigas.jpg',
+    image: 'assets/products/vigas.jpg',
     description:
       'Produzimos vigas de todos os tamanhos, sempre de acordo com o projeto e com materiais de primeira qualidade.',
     usage: 'Usadas em estruturas de sustentação, cintas, baldrames e reforços de concreto armado.',
   },
   {
     name: 'Vergalhão CA-50 Gerdau',
-    image: '/assets/products/vergalhao-gerdau.jpg',
+    image: 'assets/products/vergalhao-gerdau.jpg',
     description:
       'Produzido rigorosamente de acordo com as especificações da norma NBR 7.480.',
     usage:
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     name: 'Arame recozido',
-    image: '/assets/products/arame-recozido.jpg',
+    image: 'assets/products/arame-recozido.jpg',
     description:
       'Produto maleável e fácil de trabalhar, produzido conforme a Norma NBR 5.589/82, com resistência à tração de até 40 kgf/mm².',
     usage:
@@ -63,14 +63,14 @@ export const products = [
   },
   {
     name: 'Pregos',
-    image: '/assets/products/pregos.jpg',
+    image: 'assets/products/pregos.jpg',
     description:
       'Trabalhamos com pregos de aço em diversos tamanhos, atendendo diferentes necessidades da obra.',
     usage: 'Indicados para fixações, formas, estruturas auxiliares e serviços gerais no canteiro.',
   },
   {
     name: 'Arame galvanizado',
-    image: '/assets/products/arame-galvanizado.jpg',
+    image: 'assets/products/arame-galvanizado.jpg',
     description:
       'Possui alta resistência mecânica e camada de zinco uniforme, fornecido em aço SAE 1006/1010.',
     usage:

@@ -1,12 +1,14 @@
 import { Building2, ShieldCheck } from 'lucide-react'
 import styles from '../styles/About.module.css'
 
+const companyImage = `${import.meta.env.BASE_URL}assets/globalfer-capa.jpg`
+
 function About() {
   return (
     <section className={styles.section} id="sobre">
       <div className={styles.container}>
         <div className={styles.imageBlock}>
-          <img src="/assets/globalfer-capa.jpg" alt="Globalfer ferragens armadas sob medida" />
+          <img src={companyImage} alt="Globalfer ferragens armadas sob medida" />
           <div className={styles.badge}>
             <ShieldCheck size={26} />
             <span>Compromisso com a obra</span>

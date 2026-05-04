@@ -1,6 +1,8 @@
 import { ArrowRight, CheckCircle2 } from 'lucide-react'
 import styles from '../styles/Hero.module.css'
 
+const companyImage = `${import.meta.env.BASE_URL}assets/globalfer-capa.jpg`
+
 function Hero() {
   return (
     <section className={styles.hero} id="inicio">
@@ -39,7 +41,7 @@ function Hero() {
 
         <div className={styles.visual}>
           <div className={styles.companyPhoto}>
-            <img src="/assets/globalfer-capa.jpg" alt="Fachada da Globalfer com ferragens armadas sob medida" />
+            <img src={companyImage} alt="Fachada da Globalfer com ferragens armadas sob medida" />
           </div>
           <div className={styles.visualPanel}>
             <strong>Aço preparado</strong>

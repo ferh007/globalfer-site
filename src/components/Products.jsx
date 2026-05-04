@@ -2,6 +2,8 @@ import { ArrowUpRight } from 'lucide-react'
 import { products } from '../data/products.js'
 import styles from '../styles/Products.module.css'
 
+const getAssetUrl = (path) => `${import.meta.env.BASE_URL}${path}`
+
 function Products() {
   return (
     <section className={styles.section} id="produtos">
@@ -19,7 +21,7 @@ function Products() {
             <article className={styles.card} key={product.name}>
               <div className={styles.imageWrap}>
                 {product.image ? (
-                  <img src={product.image} alt={product.name} />
+                  <img src={getAssetUrl(product.image)} alt={product.name} />
                 ) : (
                   <span className={styles.imagePlaceholder} />
                 )}
